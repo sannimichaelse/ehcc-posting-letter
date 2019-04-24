@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Enthronement Assembly</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Sunflower:300" rel="stylesheet">
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="container">
+            <form method="POST" class="appointment-form" id="appointment-form">
+                <h2>Enthronement Posting Letter Form</h2>
+                <div class="form-group-1">
+                    <input type="text" name="name" id="name" placeholder="Name" required />
+                    <input type="date" placeholder="Date of Training" id="dot" required />
+                    <input type="date" placeholder="Effective Date" id="doe" required />
+                    <div class="select-list">
+                        <select name="course_type" id="gender">
+                            <option slected value="">Select Gender</option>
+                            <option slected value="m">Male</option>
+                            <option slected value="f">Female</option>
+                        </select>
+                        <select name="course_type" id="lovecircle">
+                            <option slected value="">Select Love Circle Area</option>
+                        </select>
+                        <select name="course_type" id="directorate" onchange="loadDepartments()">
+                            <option slected value="">Select Directorate</option>
+                        </select>
+                        <select name="course_type" id="department">
+                            <option slected value="">Select Department</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <input name="submit" id="submitBtn" class="submit" value="Generate" />
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <!-- Moment Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/ehcc.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+</html>

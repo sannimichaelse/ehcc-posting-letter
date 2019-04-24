@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Enthronement Assembly : Training Department</title>
+    <link href="https://fonts.googleapis.com/css?family=Sunflower:300" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <style>
+        * {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .name {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="margin-left:50px;margin-right:50px">
+        <div class="container-fluid">
+            <div style="text-align:center;margin-top: 25px">
+                <!-- http://enthronementassembly.org/wp-content/uploads/2018/01/Enthronement-Ass-logo.png -->
+                <img src="images/ehcc.png" style="height:15%;width:15%">
+                <br>
+                <p>NECA HOUSE Plot A2, Hakeem Balogun way, CBD Alausa, Ikeja, Lagos State, Nigeria <br>
+                    <span>T:+234 803 252 3039, E : <a
+                            href="churchoffice@enthronementassembly.org">churchoffice@enthronementassembly.org</a></span>
+                    <br><span><a href="www.enthronementassembly.org">www.enthronementassembly.org</a></span>
+                </p>
+            </div>
+        </div><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h3>REFERENCE: EA/D01A/1</h3>
+                </div>
+                <div class="col-md-4" style="">
+                    <h3><span id="todaysDate"> 28 October 2018</span></h3>
+                </div>
+                <div class="col-md-6 name">
+                    <h3 id="name">MR SANNI MICHAEL</h3>
+                    <h3>ENTHRONEMENT ASSEMBLY</h3>
+                    <h3>IKEJA-LAGOS</h3>
+                </div>
+
+                <div class="col-md-12 name">
+                    <h3>Dear <span id="gender">Sir</span>,</h3>
+                    <br>
+                    <h3>DEPARTMENT AND LOVE CIRCLE POSTING LETTER</h3>
+                    <div style="">
+                        <h4 style="text-align: justify;word-spacing: 2px;">
+                            Having completed the membership
+                            training programme
+                            that took place on
+                            the
+                            <span id="dot"> 21st
+                                October 2018</span>; I am
+                            directed to inform you that you authorized to be a member of the church's workorce for the
+                            year
+                            <span id="currentYear">2018</span>
+                            and also join the Love Circle Comunity <br><br> In View of this,we hereby post you to the
+                            <span id="department">TECHNICAL
+                                DEPARTMENT</span> of the church, which is under the
+                            <span id="directorate">DIRECTORATE OF TECHNOLOGY</span> with effect from <span id="doe">28
+                                October
+                                2018</span>,The
+                            Head of the
+                            Department is <span id="headOfDepartment">
+                                FISAYO
+                                OLA (08034774796) </span> and the Head of the Directorate is <span
+                                id="headOfDirectorate"> GBENGA FOLARIN
+                                (08089773815)</span><br><br>
+                            Also, based on the review of your residential address, you have been drafted into the
+                            <span id="loveCircle">
+                            </span> LOVE
+                            CIRCLE, Under the Leadership of <span id="loveCircleLeader">and MRS TUNDE
+                                OBIESESAN (08038662221)</span>. The
+                            LOVE CIRCLE is
+                            located
+                            at <span id="loveCircleAddress">24 LAWANSON ROAD, SURULERE LAGOS </span><br><br>
+                            Your Immediate Authority is the Head of the Department, and he will also assign your task
+                            from
+                            time
+                            to time. However, you are to contact the <span id="directorate2">DIRECTORATE OF
+                                TECHNOLOGY</span> before end of the day for
+                            guidance and any other necessary action that is required of you<br><br>
+                            Thank You.<br><br>
+                            OLORUNTOBA OLUWAPONMILE [MIN]<br>
+                            <i>For</i><br>
+                            <i> Minsterial Team</i><br>
+                            <i>Enthronement Assembly</i>
+                        </h4>
+                    </div>
+                </div>
+
+                <div class="col-md-12" style="margin-top:120px;text-align: center;margin-bottom: 0px">
+                    <h2>...ACTIVATING & ACTUALIZING GOD'S ROYALTY IN YOU</h2>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Moment Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+    <script>
+        const d = new Date();
+        const dot = new Date(localStorage.getItem("dot"));
+        const doe = new Date(localStorage.getItem("doe"));
+        const today = new Date(d.getFullYear() + "-" + (d.getMonth() + 1) + "-" + d.getDate());
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        document.getElementById("dot").innerHTML = dot.toLocaleDateString('en', options);
+        document.getElementById("todaysDate").innerHTML = today.toLocaleDateString('en', options);
+        document.getElementById("doe").innerHTML = doe.toLocaleDateString('en', options);
+        document.getElementById("currentYear").innerHTML = d.getFullYear();
+        document.getElementById("department").innerHTML = localStorage.getItem("department");
+        document.getElementById("name").innerHTML = localStorage.getItem("name");
+        document.getElementById("directorate").innerHTML = localStorage.getItem("directorate");
+        document.getElementById("directorate2").innerHTML = localStorage.getItem("directorate");
+        document.getElementById("headOfDepartment").innerHTML = localStorage.getItem("headOfDepartment");
+        document.getElementById("headOfDirectorate").innerHTML = localStorage.getItem("headOfDirectorate");
+        document.getElementById("loveCircle").innerHTML = localStorage.getItem("loveCircleArea");
+        document.getElementById("loveCircleLeader").innerHTML = localStorage.getItem("loveCircleLeader");
+        document.getElementById("loveCircleAddress").innerHTML = localStorage.getItem("loveCircleAddress");
+        document.getElementById("gender").innerHTML = localStorage.getItem("gender");
+
+        console.log(localStorage.getItem("gender"));
+
+    </script>
+</body>
+
+</html>
