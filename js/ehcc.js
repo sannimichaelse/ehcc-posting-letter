@@ -68,7 +68,7 @@ const loveCircleObject = [
     {
         name: "Mr & Mrs Tunde Obisesan",
         area: "SURULERE",
-        address: "24, Lawanson Road, Surulere",
+        address: "24, Lawanson Road, Surulere, lagos",
         phone: "08038662221"
     },
     {
