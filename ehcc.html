@@ -14,14 +14,13 @@
     <style>
         * {
             font-family: 'Times New Roman', Times, serif;
-
         }
 
         .center {
             text-align: center;
             display: block;
             position: absolute;
-            opacity: 0.3;
+            opacity: 0.4;
             filter: alpha(opacity=50);
         }
 
@@ -108,7 +107,8 @@
                                 LOVE CIRCLE is
                                 located
                                 at <span id="loveCircleAddress">24 LAWANSON ROAD, SURULERE LAGOS </span><br><br><br>
-                                Your Immediate Authority is the Head of the Department, and he will also assign your
+                                Your Immediate Authority is the Head of the Department, and <span id="hodGend"></span>
+                                will also assign your
                                 task
                                 from
                                 time
@@ -157,6 +157,11 @@
         document.getElementById("loveCircleAddress").innerHTML = localStorage.getItem("loveCircleAddress");
         document.getElementById("loveCirclePhone").innerHTML = localStorage.getItem("loveCirclePhone");
         document.getElementById("gender").innerHTML = localStorage.getItem("gender");
+        if (localStorage.getItem("headOfDepartmentGender") == "m") {
+            document.getElementById("hodGend").innerHTML = "he"
+        } else {
+            document.getElementById("hodGend").innerHTML = "she"
+        }
 
         console.log(localStorage.getItem("gender"));
 
