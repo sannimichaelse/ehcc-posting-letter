@@ -90,7 +90,7 @@
                                 <span id="directorate">DIRECTORATE OF TECHNOLOGY</span> with effect from <span
                                     id="doe">28
                                     October
-                                    2018</span>.The
+                                    2018</span>. The
                                 Head of the
                                 Department is <span id="headOfDepartment">
                                     FISAYO
@@ -145,7 +145,7 @@
         const today = new Date(d.getFullYear() + "-" + (d.getMonth() + 1) + "-" + d.getDate());
         const options = { year: 'numeric', month: 'long', day: 'numeric' };
         document.getElementById("dot").innerHTML = dot.toLocaleDateString('en', options);
-        document.getElementById("todaysDate").innerHTML = today.toLocaleDateString('en', options);
+        //document.getElementById("todaysDate").innerHTML = today.toLocaleDateString('en', options);
         document.getElementById("doe").innerHTML = doe.toLocaleDateString('en', options);
         document.getElementById("currentYear").innerHTML = d.getFullYear();
         document.getElementById("department").innerHTML = localStorage.getItem("department");
