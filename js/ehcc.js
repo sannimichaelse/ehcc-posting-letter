@@ -300,7 +300,7 @@ const directorateObject = [
         gender: "m",
         departments: [
             {
-                name: "CHOR DEPARTMENT",
+                name: "CHOIR DEPARTMENT",
                 head: "Pst. Shola Lawal",
                 gender: "m",
                 headOfDepartmentPhone: "08067115436",

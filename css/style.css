@@ -126,11 +126,12 @@ h3 {
 .clear {
   clear: both; }
 
+
 body {
   font-size: 13px;
   line-height: 1.8;
   color: #fff;
-  background-image: url("../images/body-bg.jpg");
+  background-image: url(http://enthronementassembly.org/wp-content/uploads/2019/04/EHCC-Website-Photo-Collage.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   -moz-background-size: cover;
