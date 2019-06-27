@@ -134,7 +134,7 @@ const loveCircleObject = [
     {
         name: "Mr & Mrs Fisayo Ola",
         area: "IJU ISHAGA",
-        address: "2, Famurewa Close, Off Victor Olaleye Street, Iju-Ishaga.",
+        address: "2, Famurewa Close, Off Victor Olaleye Street, Iju-Ishaga",
         phone: "08034774796"
     },
     {
@@ -146,7 +146,7 @@ const loveCircleObject = [
     {
         name: "Min & Min Bolanle Dada",
         area: "LASU",
-        address: "LASU-PJ Restuarant, LASU first gate",
+        address: "LASU-PJ Restuarant, LASU First gate",
         phone: "08125833713"
     }
 ]
