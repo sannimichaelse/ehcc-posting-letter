@@ -58,7 +58,7 @@
                 </div>
                 <div class="col-md-4" style="">
                     <!-- <h3><b><span id="todaysDate">26th May 2019</span></b></h3> -->
-                    <h3><b>26th May 2019</b></h3>
+                    <h3><b>30th June 2019</b></h3>
                 </div>
                 <div class="col-md-6 name">
                     <h3><b><span id="name">MR SANNI MICHAEL</span></b></h3>
@@ -74,7 +74,7 @@
                         <h4 style="text-align: justify;word-spacing: 2px;">
                             <b>Having completed the membership
                                 training programme
-                                that took place on
+                                that took place in
                                 <span id="dot"> 21st
                                     October 2018</span>; I am
                                 directed to inform you that you are authorized to be a member of the church's workorce
@@ -145,7 +145,8 @@
         const doe = new Date(localStorage.getItem("doe"));
         const today = new Date(d.getFullYear() + "-" + (d.getMonth() + 1) + "-" + d.getDate());
         const options = { year: 'numeric', month: 'long', day: 'numeric' };
-        document.getElementById("dot").innerHTML = dot.toLocaleDateString('en', options);
+        const options2 = { year: 'numeric', month: 'long' };
+        document.getElementById("dot").innerHTML = dot.toLocaleDateString('en', options2);
         //document.getElementById("todaysDate").innerHTML = today.toLocaleDateString('en', options);
         document.getElementById("doe").innerHTML = doe.toLocaleDateString('en', options);
         document.getElementById("currentYear").innerHTML = d.getFullYear();
