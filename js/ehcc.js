@@ -142,6 +142,12 @@ const loveCircleObject = [
         area: "GBAGADA",
         address: "15, Onasanya Street, Ifako, Gbagada",
         phone: "07033162200"
+    },
+    {
+        name: "Min & Min Bolanle Dada",
+        area: "LASU",
+        address: "LASU-PJ Restuarant, LASU first gate",
+        phone: "08125833713"
     }
 ]
 
