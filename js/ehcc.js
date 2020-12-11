@@ -280,7 +280,7 @@ const directorateObject = [
                 gender: "m",
                 headOfDepartmentPhone: "08060194260",
                 deputy: "Mr. Tomisin Kehinde"
-            },,
+            },
             {
                 name: "TRAINING DEPARTMENT",
                 head: "Mrs Stella Ogundipe",
