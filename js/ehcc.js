@@ -275,6 +275,13 @@ const directorateObject = [
         gender: "m",
         departments: [
             {
+                name: "CHOIR DEPARTMENT",
+                head: "Minister Toba Oluwapomile",
+                gender: "m",
+                headOfDepartmentPhone: "08060194260",
+                deputy: "Mr. Tomisin Kehinde"
+            },,
+            {
                 name: "TRAINING DEPARTMENT",
                 head: "Mrs Stella Ogundipe",
                 gender: "f",
@@ -350,10 +357,10 @@ const directorateObject = [
     },
     {
         name: "WELFARE DIRECTORATE",
-        head: "Min. Ololade Hassan",
+        head: "Elder Torera Jide-Olaleye",
         headOfDirectoratePhone: "07036032729",
-        deputy: "Mrs. Torera Jide-Olaleye",
-        gender: "m",
+        deputy: "Dr(Mrs) Fagbeyiro",
+        gender: "f",
         departments: [
             {
                 name: "CARE DEPARTMENT",
@@ -406,7 +413,7 @@ const directorateObject = [
             },
             {
                 name: "WELFARE DEPARTMENT",
-                head: "Miss Doris Adebayo",
+                head: "Mrs Doris Owolabi",
                 gender: "f",
                 headOfDepartmentPhone: "07060584030",
                 deputy: "Miss Kemi Kupoluyi"
@@ -420,13 +427,6 @@ const directorateObject = [
         deputy: "Mr Tomisin Kehinde",
         gender: "m",
         departments: [
-            {
-                name: "CHOIR DEPARTMENT",
-                head: "Pst. Shola Lawal",
-                gender: "m",
-                headOfDepartmentPhone: "08067115436",
-                deputy: "Mr. Tomisin Kehinde"
-            },
             {
                 name: "DRAMA DEPARTMENT",
                 head: "Mr. Olumide Jesumuyiwa ",
