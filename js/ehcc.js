@@ -23,7 +23,8 @@ document.getElementById("submitBtn").addEventListener("click", () => {
         localStorage.setItem("gender", "Ma");
     }
 
-    //console.log(loveCircleDetails)
+    console.log(loveCircleDetails)
+    console.log(lovecircle.options[lovecircle.selectedIndex].text)
     localStorage.setItem("dot", dot);
     localStorage.setItem("doe", doe);
     localStorage.setItem("name", name);
@@ -43,9 +44,21 @@ document.getElementById("submitBtn").addEventListener("click", () => {
 const loveCircleObject = [
     {
         name: "Min Nifemi & Mrs Ebunlomo Oguntoye",
-        area: "BERGER",
-        address: "29, Hassan Abiodun street, Ojodu, Berger",
+        area: "OJODU BERGER - GODSWILL ESTATE",
+        address: "3, Cypstolu, Goodwill Estate, Bemil, Ojodu Berger.",
         phone: "08035181304."
+    },
+    {
+        name: "Mr Kolawole Sam",
+        area: "OJODU BERGER - RIVER VALLEY ESTATE",
+        address: "No. 2, Tunde Ogunbiyi Street, River Valley Estate, Ojodu Berger",
+        phone: "08032219727."
+    },
+    {
+        name: "Mr Tosin Akinniyi",
+        area: "OJODU BERGER - DIPO ABE STREET",
+        address: "6, Dipo Abe Street, Ojodu Berger.",
+        phone: "07032736418"
     },
     {
         name: "Mr Kolade Adepoju",
@@ -66,22 +79,112 @@ const loveCircleObject = [
         phone: "08032219727"
     },
     {
-        name: "Mr & Mrs Tunde Obisesan",
-        area: "SURULERE",
+        name: "Miss Shola Orimoloye",
+        area: "SURULERE - LAWANSON ROAD",
         address: "24, Lawanson Road, Surulere, lagos",
-        phone: "08038662221"
+        phone: "08160006061"
     },
     {
-        name: "Mr & Mrs Rotimi Adedoyin",
-        area: "APAPA",
+        name: "Mr Jide Olaleye",
+        area: "SURULERE - ITIRE IKATE",
+        address: "No 38, Onitire road, Itire Ikate, Surulere.",
+        phone: "07080450412"
+    },
+    {
+        name: "Mr Gbenga Asaolu",
+        area: "KOSOFE - UNILAG ESTATE, MAGODO PHASE 1",
+        address: "No 15, Law Close, Unilag Estate, Magodo Phase 1.",
+        phone: "08065754819"
+    },
+    {
+        name: "Mr Olumide Jesumiyiwa",
+        area: "KOSOFE - ATUNRASE ESTATE, GBAGADA",
+        address: "No. 10a Alhaji Owolengbon Street. Atunrase Estate, Gbagada.",
+        phone: "08162760891"
+    },
+    {
+        name: "Mrs Abiodun Ajibola",
+        area: "OPIC - ISHERI OKE",
+        address: "No 13 Mabinuori Street, Isheri Oke (Opic).",
+        phone: "07032677034"
+    },
+    {
+        name: "Mr Wale Onifade",
+        area: "MAGBORO",
+        address: "6, Oluwatoyin Adunyi, Magboro",
+        phone: "08063020238"
+    },
+    {
+        name: "Mr Rotimi Adedoyin",
+        area: "APAPA & AJEROMI IFELODUN",
         address: "20B point road, Apapa",
         phone: "08137760275"
     },
     {
-        name: "Mr & Mrs Gboyega Hassan",
-        area: "ALAKUKO",
+        name: "Mr Joseph Sanni",
+        area: "IFAKO-IJAIYE - ALAKUKO",
         address: "2, Alabi Street, Off Fola Azeez, Alakuko",
-        phone: "07056236378"
+        phone: "08133007621"
+    },
+    {
+        name: "Yinka Koyejo",
+        area: "IFAKO-IJAIYE - OKE-IRA, OGBA",
+        address: "20, IREPODUN STREET, AJAYI ROAD, OKE-IRA, OGBA",
+        phone: "08032000165"
+    },
+    {
+        name: "Mr Fisayo Ola",
+        area: "IFAKO-IJAIYE - OBAWOLE",
+        address: "2, Famurewa Close, Obawole",
+        phone: "08034774796"
+    },
+    {
+        name: "Mr Gregory Ayodeji",
+        area: "ALIMOSHO - OJOKORO, LAGOS ABEOKUTA WAY",
+        address: "6B David close, Ijaiye B/Stop, Ojokoro, Lagos Abeokuta way",
+        phone: "08167225755"
+    },
+    {
+        name: "Mr Tope Somoye",
+        area: "ALIMOSHO - SILVER ESTATE, EGBEDA",
+        address: "15, SILVER CLOSE,SILVER ESTATE, EGBEDA",
+        phone: "08034383943"
+    },
+    {
+        name: "Mr Tolu Adelabi",
+        area: "ALIMOSHO - MOSAN B/STOP, OFF IPAJA ROAD",
+        address: "47, DF Street, Shagari Estate, Mosan B/Stop, Off Ipaja Road",
+        phone: "08135352332"
+    },
+    {
+        name: "Mr Akinlolu Akinwande",
+        area: "ALIMOSHO - FAGBILE ROAD, OFF IJEGUN ROAD",
+        address: "33, FAGBILE ROAD,OFF IJEGUN Road.",
+        phone: "08031991483"
+    },
+    {
+        name: "Mr Adebayo Adekunle",
+        area: "OTA",
+        address: "4, Ikosi road, Iyana Iyesi, Sango Ota.",
+        phone: "08030745074"
+    },
+    {
+        name: "Mr Gbenga Folarin",
+        area: "AGEGE - OFF IJU ROAD, PRINCE DUROTOYE STREET",
+        address: "1, Prince Durotoye street, Off Iju Road, Agege",
+        phone: "08089773815"
+    },
+    {
+        name: "Min. Toba Oluwaponmile",
+        area: "AGEGE - OLD ABEOKUTA ROAD, AGEGE",
+        address: "8 Salimonu Street, National Bus Stop, Old Abeokuta Road, Agege, Lagos State.",
+        phone: "08060194260"
+    },
+    {
+        name: "Dr Tayo Owolabi",
+        area: "IKORODU",
+        address: "22, Rilwan Lawal Street, Ikorodu",
+        phone: "07067961647"
     },
     {
         name: "Mr & Mrs Kenedy Oboh",
@@ -90,10 +193,16 @@ const loveCircleObject = [
         phone: "08028871244"
     },
     {
-        name: "Mr & Mrs Jide Olaleye",
-        area: "OKOTA",
-        address: "2, Reverend Father Burke Crescent, Off ago palace way, Okota",
-        phone: "07058112575"
+        name: " Mr Lanre Olaleye",
+        area: "ABEOKUTA SOUTH",
+        address: "SAM EWANG EXTENTION, ROAD 3",
+        phone: "08122096056"
+    },
+    {
+        name: " Min. Biola Dada",
+        area: "AREPO",
+        address: "10, Kunle Juti Street, Arepo.",
+        phone: "07038616699"
     },
     {
         name: "Mr & Mrs Olayinka Koyejo",
@@ -109,15 +218,21 @@ const loveCircleObject = [
     },
     {
         name: "Mr & Mrs Ibukun Fagbeyiro",
-        area: "OSHODI",
+        area: "OSHODI/ISOLO - BEESAM INTERNATIONAL AIRPORT",
         address: "6, Oba Elewu way, Beesam international Airport, Mafoluku, Oshodi",
         phone: "08062438953"
     },
     {
-        name: "Mr & Mrs Tope Somoye",
-        area: "IDIMU",
-        address: "22, Alhaji Adewale Street, Idimu Council",
-        phone: "08034383943"
+        name: "Mr Dimeji Olaoye",
+        area: "OSHODI/ISOLO - IRE AKARI ESTATE",
+        address: "21, Tunji Aderinto street, Ire Akari Estate, Isolo",
+        phone: "08085214858"
+    },
+    {
+        name: "Mr Dipo Salako",
+        area: "LAGOS MAINLAND - SABO, YABA",
+        address: "No 12, St. Agnes Street, Sabo Yaba.",
+        phone: "07033162200"
     },
     {
         name: "Mrs Omonike Abati",
@@ -300,8 +415,8 @@ const directorateObject = [
     },
     {
         name: "WORSHIP DIRECTORATE",
-        head: "Pst. Shola Lawal",
-        headOfDirectoratePhone: "08067115436",
+        head: "Minister Toba Oluwapomile",
+        headOfDirectoratePhone: "08060194260",
         deputy: "Mr Tomisin Kehinde",
         gender: "m",
         departments: [
